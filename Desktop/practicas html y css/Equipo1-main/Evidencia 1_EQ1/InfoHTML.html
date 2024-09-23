@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <title>Información sobre HTML</title>
+    <link rel="stylesheet" type="text/css" href="recursos/css/estiloInfoHTML.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Título principal -->
+        <h1>¿Qué es HTML?</h1>
+        
+        <!-- Introducción -->
+        <p>Hyper Text Markup Language por sus siglas en inglés, (Lenguaje de marcado de
+            hipertexto) es un lenguaje de etiquetado cuyo objetivo es realizar estructuras para el
+            texto en la web basándose en hipertexto. Siendo la versión 5 la más actual donde
+            introduce nuevas etiquetas, elementos y APIs que mejoran la funcionalidad y la
+            interoperabilidad de las aplicaciones web. Algunas de sus características son:</p>
+            <li>Utiliza etiquetas</li>
+            <li>Se realiza mediante texto plano (símbolos, letras, números)</li>
+            <li>Puede crearse desde cualquier procesador de texto.</li>
+            <li>Se debe generar un archivo con extensión .html.</li>
+            <li>Es interpretado por los navegadores.</li>
+            <li>Cuenta con una estructura de etiquetas pre definidas.</li><br>
+        
+        <!-- Sección: Importancia de CSS -->
+        <h2>¿Por qué es importante HTML?</h2>
+        <p>Es importante porque es el lenguaje base que estructura el contenido de las páginas web como:</p>
+        <ul>
+            <li><strong>Estructura de la web</strong> </li>
+            <li><strong>Compatibilidad universal</strong> </li>
+            <li><strong>Accesibilidad</strong> </li>
+            <li><strong>Optimización para motores de búsqueda</strong> </li>
+            <li><strong>Interacción con otros lenguajes</strong> </li>
+        </ul><br>
+
+        <h2>Estructura  de HTML</h2>
+        <p>A continuación te mostramos la estructura básica a usar para hacer una página de HTML.</p>
+
+        <div class="example">
+            <h4>HTML:</h4>
+            <code>
+                &lt;!DOCTYPE HTML&gt;<br>
+                &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &nbsp;&nbsp;&lt;title&gt;&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+            </code>
+        </div>
+
+        <h5>&lt;!DOCTYPE HTML&gt;</h5>
+        <p>Especifica el tipo de documento y
+            la versión de HTML utilizada.</p>
+        <h5>Comentarios en código</h5>
+        <p>&lt;!-- Comentario aquí --&gt;</p>
+        <h5>Identación</h5>
+        <p>Práctica de organizar el código con espacios, tabulaciones para mejorar la legibilidad y la estructura visual.</p>
+        <br>
+
+        <!-- Etiquetas de HTML -->
+        <h2>Etiquetas más utilizadas</h2><br>
+        <ol>
+            <p><strong>&lt;html&gt;:</strong> Indica el inicio y el fin de una estructura html.</p>
+            <p><strong>&lt;head&gt;:</strong> Es la parte superior o cabecera de una página web.</p>
+            <p><strong>&lt;title&gt;:</strong> Hace referencia a los títulos y sus características visuales, suele ir dentro del head.</p>
+            <p><strong>&lt;br&gt;:</strong> Crea un salto de línea entre nuestros elementos.</p>
+            <p><strong>&lt;p&gt;:</strong> Crea un salto de línea espaciado entre los elementos (párrafo).</p>
+            <p><strong>&lt;body&gt;:</strong> Dentro de esta etiqueta acomodamos todo el contenido de la página, textos, tablas, imágenes y todo lo que necesitemos para la misma.</p>
+            <p><strong>&lt;h&gt;:</strong> Del 1 al 6 en orden de importancia, estas etiquetas se utilizan para encabezados como por ejemplo &lt;h1&gt; &lt;h2&gt;</p>
+            <p><strong>&lt;a&gt;:</strong> Define un hipervínculo</p>
+            <p><strong>&lt;li&gt;:</strong> Define un elemento dentro de una lista (listitem)</p>
+            <p><strong>&lt;ol&gt;:</strong> Define un conjunto de elementos ordenados</p>
+            <p><strong>&lt;ul&gt;:</strong> Define un conjunto de elementos desordenados</p>
+            <p><strong>&lt;table&gt;:</strong> La versión genérica de tablas para HTML, en si debe contener al menos una etiqueta &lt;tr&gt; (table row, una fila) y un &lt;td&gt; (table data, elemento dentro de una fila, en esencia, una columna)</p>
+            <p><strong>&lt;img&gt;:</strong> Inserta imágenes en una página web.</p>
+            <p><strong>&lt;fildset&gt;:</strong> Agrupa elementos dentro de un formulario.</p>
+            <p><strong>&lt;legend&gt;:</strong> Se emplea dentro de un &lt;fildset&gt; para proporcionar una etiqueta o título.</p>
+            <p><strong>&lt;div&gt;:</strong> Es un contenedor genérico de bloque que se utiliza para agrupar y estilizar elementos mediante CSS.</p>
+            <p><strong>&lt;blockquote&gt;:</strong> Se utiliza para indicar una cita de bloque, es decir, una cita extensa de otro texto.</p>
+            <p><strong>&lt;article&gt;:</strong> Se emplea para definir un contenido independiente y autocontenido dentro de un documento, como una entrada de blog, un artículo de noticias, o una sección de una revista en línea.</p>
+        </ol>
+
+        <h2>Ejemplo para página HTML</h2>
+        <div class="example">
+            <h4>Código:</h4>
+            <code>
+                &lt;!DOCTYPE HTML&gt;<br>
+                &lt;htm lang="es"&gt;<br>
+                &lt;head&gt;<br>
+                &nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+                &nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                &nbsp;&nbsp;&lt;title&gt;Página Web &lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &nbsp;&nbsp;&lt;h1&gt;Bienvenido a Mi Página Web&lt;/h1&gt;<br>
+                &nbsp;&nbsp;&lt;p&gt;Ejemplo de una página web súper sencilla sin estilos CSS adicionales. Aquí puedes ver cómo se usan las etiquetas HTML básicas&lt;/p&gt;<br><br>
+                &nbsp;&nbsp;&lt;img src="https://via.placeholder.com/400" alt="Imagen de ejemplo"&gt;<br><br>
+                &nbsp;&nbsp;&lt;p&gt;Para más información, visita &lt;a href="https://www.example.com" target="_blank"&gt; mi sitio web
+                favorito&lt;/a&gt; &lt;/p&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+            </code>
+        </div>
+   
+
+        <h2>Formulario</h2>
+        <p><strong>Input tipo text</strong></p>
+        <p>Crea una fila con dos celdas. La primera celda contiene un texto estático, mientras que la segunda celda contiene un cuadro de texto donde el usuario puede ingresar información, con una sugerencia de "Nombre".</p>
+        <div class="example">
+            <code>&lt;td&gt;TEXT&lt;/td&gt;<br>
+                &lt;td&gt;&lt;input type="text" name="txttext" placeholder="Nombre"&gt;&lt;/td&gt;
+            </code>
+        </div>
+
+        <p><strong>Input tipo number</strong></p>
+        <p>Crea una fila con dos celdas. La primera celda contiene un texto estático, mientras que la segunda celda contiene un campo de entrada solo permite números.</p>
+        <div class="example">
+            <code>&lt;td&gt;NUMBER&lt;/td&gt;<br>
+                &lt;td&gt;&lt;input type="number" name="txtNUMBER"&gt;&lt;/td&gt;
+            </code>
+        </div>
+
+        <p><strong>Input tipo pasword</strong></p>
+        <p>Crea una fila con dos celdas. La primera celda contiene un texto estático, mientras que la segunda celda contiendra caracteres que el usuario ingrese  y estarán ocultos (normalmente se muestran como puntos o asteriscos) para mayor seguridad..</p>
+        <div class="example">
+            <code>&lt;td&gt;PASSWORD&lt;/td&gt;<br>
+                &lt;td&gt;&lt;input type="password" name="txtpassword"&gt;&lt;/td&gt;
+            </code>
+        </div>
+
+        <p><strong>Input tipo radio</strong></p>
+        <p>Crea una fila con dos celdas. La primera celda contiene un texto estático, mientras que la segunda celda contiene dos botones de opción (radio buttons) y etiquetas de opción..</p>
+        <div class="example">
+            <code>&lt;td&gt;RADIOBUTTON&lt;/td&gt;<br>
+                &lt;td&gt;&lt;input type="radio" name="rdRadio1" value="opcion1"&gt;OPCIÓN1&lt;br&gt;<br>
+                &lt;input type="radio" name="rdRadio2" value="opcion2""&gt;OPCIÓN2&lt;/td&gt;
+            </code>
+        </div>
+
+        <p><strong>Input tipo checkbox</strong></p>
+        <p>Crea una fila con dos celdas. La primera celda contiene un texto estático, mientras que la segunda celda contiene una casilla de verificación que el usuario puede marcar o desmarcar..</p>
+        <div class="example">
+            <code>&lt;td&gt;CHECKBOX&lt;/td&gt;<br>
+                &lt;td&gt;&lt;input type="checkbox" name="chkcheckbox"&gt;Aceptar&gt;&lt;/td&gt;
+            </code>
+        </div>
+
+        <p><strong>Input tipo date</strong></p>
+        <p>Crea una fila con dos celdas. La primera celda contiene un texto estático, mientras que la segunda celda contiene un campo de entrada que permite al usuario seleccionar una fecha..</p>
+        <div class="example">
+            <code>&lt;td&gt;DATE&lt;/td&gt;<br>
+                &lt;td&gt;&lt;input type="date" name="txtDATE"&gt;&lt;/td&gt;
+            </code>
+        </div>
+
+        <p><strong>Input tipo time</strong></p>
+        <p>Crea una fila con dos celdas. La primera celda contiene un texto estático, mientras que la segunda celda contiene un campo de entrada que permite al usuario seleccionar una hora, dependiendo del navegador y la configuración.</p>
+        <div class="example">
+            <code>&lt;td&gt;TIME&lt;/td&gt;<br>
+                &lt;td&gt;&lt;input type="time" name="txtTIME"&gt;&lt;/td&gt;
+            </code>
+        </div>
+
+        <p><strong>Input tipo file</strong></p>
+        <p>Crea una fila con dos celdas. La primera celda contiene un texto estático, mientras que la segunda celda permite al usuario seleccionar un archivo de su dispositivo. La configuración con el atributo accept limita la selección a archivos PDF.</p>
+        <div class="example">
+            <code>&lt;td&gt;FILE&lt;/td&gt;<br>
+                &lt;td&gt;&lt;input type="file" name="txtFILE" accept=".pdf"&gt;&lt;/td&gt;
+            </code>
+        </div>
+
+
+
+    </div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 - Página Informativa sobre HTML | <a href="index.html">Inicio</a></p>
+    </footer>
+
+</body>
+</html>

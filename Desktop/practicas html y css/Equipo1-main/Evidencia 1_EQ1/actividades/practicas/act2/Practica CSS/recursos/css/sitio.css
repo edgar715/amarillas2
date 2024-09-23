@@ -1,0 +1,74 @@
+/*Diseno del sitio en general*/
+body {
+    font-family: Helvetica;
+    background-color: #87ceeb;
+}
+
+.contenedor{
+   padding: 20px;
+}
+
+h1, h2 {
+   text-align: center;
+}
+
+h2 {
+   text-transform: uppercase;
+   color: #d6651f;
+}
+
+table {
+   border-collapse: collapse;
+   border: 5px solid black;
+   margin: auto;
+}
+
+table td{
+   width: 300px;
+   height: 400px;
+}
+
+#seccion1{
+   background-color: darkgreen;
+}
+#seccion1:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+#seccion2{
+   background-color: white;
+}
+#seccion2 img {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
+#seccion2 img:hover{
+    background-color: whitesmoke;
+}
+#seccion2:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+#seccion3{
+   background-color: darkred;
+}
+#seccion3:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+fieldset {
+    background-color: white;
+    font-size: 14px;
+    text-align: justify;
+    border: 2px solid #d6651f; 
+}
+
+legend h3 {
+    margin: 0;
+    font-size: 16px;
+}
+

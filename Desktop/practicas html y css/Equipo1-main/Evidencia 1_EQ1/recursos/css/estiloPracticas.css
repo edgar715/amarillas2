@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(142,160,171,1) 10%, rgba(122,144,157,1) 90%);
+}
+
+.banner {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/fondoPracticas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(42, 75, 94, 0.5); 
+}
+
+/* Menú */
+.menu {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 10px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.menu-icono {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.navegacion {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    display: none;
+}
+
+.navegacion-lista {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+.navegacion-lista li {
+    border-bottom: 2px solid transparent;
+    padding-block: 5px;
+}
+
+.navegacion-lista li:nth-child(5) {
+    border-bottom-color: yellow;
+}
+
+.navegacion-lista li:hover {
+    border-bottom-color: yellow;
+}
+
+.navegacion-lista a {
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    .menu-icono {
+        display: none;
+    }
+
+    .navegacion {
+        display: flex;
+    }
+}
+
+/* Información */
+.contenido{
+    position: relative;
+    z-index: 2; 
+    flex: 1;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+}
+
+.informacion-contenido{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.titulo{
+    font-size: 20px;
+    width: 100%;
+    border-bottom: 2px solid yellow;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 22px;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .contenido {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .informacion {
+        gap: 30px;
+    }
+
+    .titulo {
+        font-size: 60px;
+        width: 100%;
+    }
+}
+
+.btn{
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid yellow;
+    padding-block: 10px;
+    padding-inline: 50px;
+}
+
+.btn:hover{
+    border-color: white;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(142, 142, 2);
+}
+
+/* Contenedor */ 
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.subtitulo {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    background-color: rgb(96, 119, 128);
+    box-shadow: 0px 1px 10px rgba(42, 75, 94, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(42, 75, 94, 0.4);
+    transform: translateY(-3%);
+}
+
+.img-fluid {
+    width: 643px;
+    height: 400px;
+}
+
+.card-title {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 100px;
+    
+}
+
+.card-text {
+    color: white;
+    font-size: 20px;
+}
